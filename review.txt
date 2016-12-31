@@ -1,0 +1,22 @@
+client - something (Like github) that we are sending files and data to
+server - a computer that manage access from the local to the client
+render - the process of converting an image or text into something we can read as humans
+tag - a tag is used to create an element in html
+element - an element is a part of a webpage in html that contains data, text or files
+node - all elements in a html file are nodes
+attribute - something that changes the layout or how data is displayed in a file
+block element - a fixed attribute such as a header or a paragraph
+inline element - usually goes inside a block element to change how that data is displayed
+head - contains the metadata about the file
+body - where most of the text, characters, elements, images are going
+p - paragraph
+form - allows for a form to built and for the use of actions
+div - divides up the file, used for flow purposes
+span - generic line container
+select - allows the option to select from a list of different elements
+h2 - a header but is not displayed as big as h1
+ol - ordered elements, like a list with numbers
+ul - unordered list, like a bulletpoint list
+table - makes a table in a file
+tr - table row, displays the titles for the rows
+td - table data - what is going in the table 
