@@ -1,0 +1,21 @@
+Elevator Bot
+
+-Wait until elevator doors open and walk into elevator until 1 ft away from wall (wall A)
+- Turn 90 degrees to the left and walk until you reach that wall (wall b)
+- Turn 90 degrees to the left and walk until you reach that wall (wall c)
+- Ask "which floor" and wait for a response from the users
+- Scan the wall and look for numbers on the wall
+- Of the numbers heard, look for the number that matches, reach out and touch that number that corresponds with the numbers that were shouted out by the users.
+- once every floor has been reached, push the floor button "1" to go back down to the floor "1"
+-Repeat steps 4-9
+
+
+Dog Bot
+
+- Wait for dog bark and/or dog scratch at door
+-Once recieved, place hand on door nob that is the closest
+-turn handle to the left 
+-once handle is turned all the way to the left, pull on door handle
+- wait 5 seconds
+- push door closed and let go of handle
+- repeat steps 1-7 
