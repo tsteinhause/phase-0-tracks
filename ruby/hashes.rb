@@ -1,5 +1,5 @@
 
-#Get user input for each 
+#Get user input for each of the decor needs
 puts "Client Name"
 client_name = gets.chomp
 
@@ -100,8 +100,6 @@ p designer[:client_age]
 p designer[:children]
 p designer[:decor_theme]
 p designer[:specific_needs]
-
-end
 
 
 
