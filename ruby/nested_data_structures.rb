@@ -1,4 +1,4 @@
-amazon_store = {
+ amazon_store = {
 	clothing: [
 		"mens_clothing",
 		"womens_clothing",
