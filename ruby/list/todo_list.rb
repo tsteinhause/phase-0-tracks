@@ -1,4 +1,5 @@
 class TodoList
+  attr_accessor :get_items
   def initialize(list)
     @list = list
   end  
