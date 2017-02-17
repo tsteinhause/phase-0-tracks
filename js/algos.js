@@ -1,10 +1,12 @@
 var phrases = ["long phrase","longest phrase","longer phrase"];
 
 // set phrase length to 0
-var longest = 0;
+var length = 0;
+
 // create method that as long as the variable is less than the length of the number of string, it will operate 
-for (var i = 0; i < [phrases].length; i++) {
-if (longest < phrases[i].length) {
+for (var i = 0; i < phrases.length; i++) {
+  if(phrases[i].length > length) {
+    var length = phrases[i].length;
     longest = phrases[i];
   }
 }
