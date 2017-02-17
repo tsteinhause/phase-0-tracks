@@ -1,19 +1,23 @@
-// reverse("hello")
+//create a function that reverses a string
 
-// First step is to split up each character into its own string
-// The next step would be to reverse the characters 
-// The next step would be to join all of those characters/strings back together
+function reverse(str) {
 
-var str = "hello";
+// declare a new variable 
 
-function split(str) {
- return str.split("").reverse().join("")
+	var newString = '';
+
+// initialize a new counter and start a for loop
+
+	for (var i = str.length - 1; i >= 0; i--) {
+		newString += str[i];
+	}	
+
+//return the results
+	return newString;
 }
 
-split(str);
+// Driver code ===================================
 
-var broken = str.split("").reverse().join("");
-
-var broken;
-
-broken == "olleh"
+if (1==1); {
+	console.log(reverse('hey'));
+}
