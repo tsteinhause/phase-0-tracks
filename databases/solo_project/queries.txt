@@ -1,0 +1,26 @@
+1. Display the information in one table (either table is fine).
+	
+	SELECT * FROM moons;
+
+2. Update an item that meets some condition (you can choose a condition that makes sense).	
+
+	UPDATE moons SET ice="false" WHERE name ="Europa";
+
+3. Display the information in both tables using one query.
+
+	SELECT * FROM moons, planet WHERE moons.moon_id = planet.id;
+
+4. Display a narrower selection of columns (fewer columns than all of them, in other words) from both tables using one query.
+
+	SELECT moons.name, planet.name FROM moons JOIN planet ON moons.moon_id = planet.id;
+
+5. Delete an item that meets some condition (you can choose a condition that makes sense).	
+
+	DELETE FROM moons WHERE name="Io"
+
+JOINS ======================================================
+
+SELECT (name,ice) FROM moons INNER JOIN planet ON name=name WHERE name="europa"
+
+SELECT (name, disc_by_galileo) FROM moons FULL OUTER JOIN planet ON moons.name=planet.name;
+		
