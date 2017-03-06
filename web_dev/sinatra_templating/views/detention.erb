@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Students in Detention </title>
+</head>
+<body>
+	<h1> Student Detention Management </h1>
+	<p> The following student(s) have detention  </p>
+	<p></p>
+	<ul>
+		<% @student.each do |student| %>
+		<li> <%= student['name'] %>, <%= student['age'] %>, <%= student['campus'] %> </li>
+		<% end %>
+	</ul>	
+</body>
+</html>

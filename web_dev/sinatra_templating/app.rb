@@ -17,6 +17,8 @@ get '/students/new' do
   erb :new_student
 end
 
+
+
 # create new students via
 # a form
 post '/students' do
@@ -25,3 +27,9 @@ post '/students' do
 end
 
 # add static resources
+
+post '/detention' do
+	<% @student.each do |student| %>
+     <li><%= student['name'] %>, <%= student['campus'] %></li>
+    <% end %>
+ end 
